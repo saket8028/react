@@ -1,0 +1,37 @@
+.todo-app {
+  
+  margin: 20px auto;
+  width: auto;
+}
+
+
+.add-todo input {
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px; 
+  
+}
+
+.add-todo {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.add-todo input {
+  margin-right: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin: 10px 0;
+}
+
+.todo-list li.completed {
+  text-decoration: line-through;
+}
